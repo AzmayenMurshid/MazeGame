@@ -18,12 +18,6 @@ canvas = win.getcanvas()
 root = canvas.winfo_toplevel()
 root.overrideredirect(1)
 
-# Registering shapes
-
-turtle.register_shape("Walls.gif")
-turtle.register_shape("Treasure.gif")
-
-
 # creating Class
 class RB(turtle.Turtle):
     def __init__(self):
