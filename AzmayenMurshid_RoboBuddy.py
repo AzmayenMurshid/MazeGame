@@ -284,7 +284,7 @@ try:
                 tm.sleep(0.2)
                 win.clearscreen()
                 win.bgcolor("black")
-                turtle.color('cyan')
+                turtle.color('red')
                 style = ('Courier', 30, 'bold')
                 turtle.write('RoboBuddy Died! GAME OVER', font=style, align='center')
 
