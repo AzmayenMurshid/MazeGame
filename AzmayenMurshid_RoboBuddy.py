@@ -188,10 +188,8 @@ class Enemy(turtle.Turtle):
         self.hideturtle()
 
 
-# Create levels list
+# Create levels list & add r1 to the list
 rooms = ["", r1]
-
-# Add room to rooms list
 
 # Create room SetUp Function
 try:
